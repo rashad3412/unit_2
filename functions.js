@@ -16,29 +16,29 @@ function budget(){
 console.log(budget())
  
 
-// const budget = 100;
-// const price1 = 50;
-// const price2 = 46;
+const budget = 100;
+const price1 = 50;
+const price2 = 46;
 
-// function sumOfGifts(gift1, gift2) {
-//     return gift1 + gift2;
-// }
+function sumOfGifts(gift1, gift2) {
+    return gift1 + gift2;
+}
 
-// const giftTotal = sumOfGifts(price1, price2)
+const giftTotal = sumOfGifts(price1, price2)
 
-// function addTax(giftTotal) {
-//     return giftTotal + (giftTotal * 0.08);
-// }
+function addTax(giftTotal) {
+    return giftTotal + (giftTotal * 0.08);
+}
 
-// const giftsWithTax = addTax(giftTotal);
+const giftsWithTax = addTax(giftTotal);
 
-// function holidayShopping(budget, giftsWithTax) {
-//     return budget > giftsWithTax;
-// }
+function holidayShopping(budget, giftsWithTax) {
+    return budget > giftsWithTax;
+}
 
-// holidayShopping(budget, giftsWithTax);
+holidayShopping(budget, giftsWithTax);
 
-// console.log(holidayShopping(budget,giftsWithTax))
+console.log(holidayShopping(budget,giftsWithTax))
 
 
 const budget = 50;
